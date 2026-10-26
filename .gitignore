@@ -1,6 +1,10 @@
-__pycache__/
-*.py[cod]
-.env
-.venv/
-venv/
-.pytest_cache/
+(
+echo __pycache__/
+echo *.py[cod]
+echo .env
+echo .venv/
+echo venv/
+echo .pytest_cache/
+echo .next/
+echo node_modules/
+) > .gitignore
